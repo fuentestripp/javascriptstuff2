@@ -5,14 +5,23 @@ let jSonDatabase = [
     "title" : "The Second Best Quarterback",
     "picture_url" : "jared.jpg",
     "background_color" : "#",
-    "reasons" : "Jared Goff is the most accurate quaterback in the existence of the NFL. He could hit a bullseye from 70 yards out. And he's from the Bay Area."
+    "reasons" : "Jared Goff is the most accurate quaterback in the existence of the NFL. He could hit a bullseye from 70 yards out. Don't let his down year in 2019 fool you, as Sean McVay's offense was too reliant on a hobbled Todd Gurley."
   },
   {
     "title" : "The Third Best Quarterback",
     "picture_url" : "patrick.jpg",
     "background_color" : "#",
-    "reasons" : "Due to being trained by Alex Smith, Kermit the Froghas become both the smartest, quickest, most composed, and most athletically talented quarterback ever. In his first full season he threw 50 touchdowns. Most QB's can barely get to 25."
+    "reasons" : "Due to being trained by Alex Smith, Kermit the Frog has become both the smartest, quickest, most composed, and most athletically talented quarterback ever. In his first full season he threw 50 touchdowns. Most QB's can barely get to 25."
   },
+
+  {
+    "title" : "The Fourth Best Quarterback",
+    "picture_url" : "Kyler.jpg",
+    "background_color" : "#",
+    "reasons" : "Despite a 6-10 season, Kyler Murray put the team on his back, using the corpse of Larry Fitzgerald and studs Christian Kirk and Kenyan Drake. Expect great additions to this Air Raid Offense with the addition of DeAndre Hopkins."
+  },
+
+
 ]
 
 for (var i=0; i< jSonDatabase.length; i++){
@@ -38,7 +47,6 @@ function createtheElement(incomingJSON){
   newContentReasons.classList.add("reasoning");
   newContentReasons.innerHTML = incomingJSON['reasons'];
   newContentElement.appendChild(newContentReasons);
-
 
   contentGridElement.appendChild(newContentElement);
 }

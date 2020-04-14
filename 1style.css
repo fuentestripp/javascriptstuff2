@@ -1,0 +1,36 @@
+*{
+box-sizing: border-box;
+font-family: "Baloo Chettan";
+}
+
+body{
+  margin: 2vw 5vw 2vw 5vw;
+  padding: 0px;
+  background-color: #A9A9A9;
+  color: #FFFAF0;
+  background-size: auto;
+}
+
+#GridContent{
+  margin-top: 0;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-column-gap: 3vmin;
+  grid-row-gap: 1vmin;
+  background-color: #F0FFFF opacity 0;
+  font-size: 12pt;
+}
+
+.Items{
+  display: flex;
+  flex-direction: column;
+  padding: 1vmin;
+  color: #A9A9A9;
+  border: 4.5px solid black;
+  height: 100%;
+  background-color: #F0FFFF;
+}
+
+.contentImage {
+  width: 43vw;
+}
