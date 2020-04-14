@@ -5,7 +5,7 @@ let jSonDatabase = [
     "title" : "The Second Best Quarterback",
     "picture_url" : "jared.jpg",
     "background_color" : "#",
-    "reasons" : "Jared Goff is the most accurate quaterback in the existence of the NFL. He could hit a bullseye from 70 yards out. Don't let his down year in 2019 fool you, as Sean McVay's offense was too reliant on a hobbled Todd Gurley."
+    "reasons" : "Jared Goff is the most accurate quaterback in the existence of the NFL. He could hit a bullseye from 70 yards out. Don't let his down year in 2019 fool you, as Sean McVay's offense was too reliant on a hobbled Todd Gurley. Without the crutch of Gurley and without the speed of Cooks, Sean McVay may have to change his playbook, resulting in more variety for our Marin Catholic man."
   },
   {
     "title" : "The Third Best Quarterback",
@@ -18,7 +18,7 @@ let jSonDatabase = [
     "title" : "The Fourth Best Quarterback",
     "picture_url" : "Kyler.jpg",
     "background_color" : "#",
-    "reasons" : "Despite a 6-10 season, Kyler Murray put the team on his back, using the corpse of Larry Fitzgerald and studs Christian Kirk and Kenyan Drake. Expect great additions to this Air Raid Offense with the addition of DeAndre Hopkins."
+    "reasons" : "Despite a 6-10 season, Kyler Murray put the team on his back, using the corpse of Larry Fitzgerald and studs Christian Kirk and Kenyan Drake. His scrambling ability is also often overlooked, especially with how spread that offense can be. Expect great additions to this Air Raid Offense with the addition of DeAndre Hopkins. "
   },
 
 
